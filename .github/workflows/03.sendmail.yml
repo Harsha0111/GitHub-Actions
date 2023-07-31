@@ -10,7 +10,7 @@ jobs:
       run: echo "Hello World"
 
     - name: Sending a mail
-      if: $ {{ always() }}
+      if: ${{ always() }}
       uses: dawidd6/action-send-mail@v3
       with:
         server_address: smtp.gmail.com
