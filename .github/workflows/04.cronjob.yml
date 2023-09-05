@@ -1,6 +1,6 @@
 name: Cronjob
 on:
-  schedule:
+  #schedule:
     # - cron: '* * * * *'
 
 
